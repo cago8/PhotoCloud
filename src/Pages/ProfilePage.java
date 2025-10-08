@@ -82,7 +82,7 @@ public class ProfilePage extends JFrame {
 		nicknameLabel = new JLabel("Nickname: " + clickedUser.getNickname());
 		nameLabel = new JLabel("Name: " + clickedUser.getRealName());
 		surnameLabel = new JLabel("Surname: " + clickedUser.getSurname());
-		emailLabel = new JLabel("Email: " + clickedUser.getMailAdress());
+		emailLabel = new JLabel("Email: " + clickedUser.getMailAddress());
 		passwordLabel = new JLabel("Password: " + clickedUser.getPassword());
 
 		// Adding Profile Photo
@@ -100,7 +100,7 @@ public class ProfilePage extends JFrame {
 		nicknameField = new JTextField(clickedUser.getNickname());
 		nameField = new JTextField(clickedUser.getRealName());
 		surnameField = new JTextField(clickedUser.getSurname());
-		emailField = new JTextField(clickedUser.getMailAdress());
+		emailField = new JTextField(clickedUser.getMailAddress());
 		passwordField = new JPasswordField(clickedUser.getPassword());
 
 		uploadedPhotosPanel = new JPanel(new GridLayout(0, 3, 3, 3));
