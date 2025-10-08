@@ -98,14 +98,6 @@ public abstract class User {
 		this.age = age;
 	}
 
-	public String getMailAdress() {
-		return mailAddress;
-	}
-
-	public void setMailAdress(String mailAddress) {
-		this.mailAddress = mailAddress;
-	}
-
 	public ImageIcon getProfilePhoto() {
 		return profilePhoto;
 	}
