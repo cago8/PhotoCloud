@@ -1,40 +1,191 @@
-# PhotoCloud
+# 📷 PhotoCloud
 
-Welcome to PhotoCloud! This program is designed to emulate the core features of the popular social media platform, Instagram.
+A feature-rich social media application inspired by Instagram, allowing users to share photos, connect with friends, and interact through likes and comments.
 
-## Description
+## 🌟 Overview
 
-PhotoCloud is a social media application that allows users to share photos, connect with friends. This program is built to provide a similar experience to Instagram, including features like photo uploads, user profiles, likes, comments, and more.
+PhotoCloud is a desktop-based social media platform built with Java that brings the essence of Instagram to your local machine. Share your favorite moments, discover content from other users, and build your online presence with an intuitive and user-friendly interface.
 
-## Installation
+## ✨ Features
 
-To run InstaClone locally, follow these steps:
+- **User Authentication**
+  - Secure sign-up and login functionality
+  - User profile management
+  - Account security
 
-1. Clone this repository to your local machine:
+- **Photo Sharing**
+  - Upload photos directly from your device
+  - Share moments with the community
+  - Organize your photo gallery
 
-2. Navigate to the project directory:
+- **Social Interaction**
+  - Like posts from other users
+  - Comment on shared content
+  - Engage with the community
 
-3. Start the application from running src/Pages/Main.java:
+- **User Profiles**
+  - Customize your profile with a profile picture
+  - Add and edit your bio
+  - View your photo history
+  - Browse other user profiles
 
-## Features
+- **Discovery**
+  - Search for specific users
+  - Browse content on the Discover Page
+  - Find and follow friends
 
-- **User Authentication:** Sign up and log in securely to access your profile.
-- **Photo Uploads:** Share your favorite moments by uploading photos from your device.
-- **Likes and Comments:** Interact with posts by liking and commenting on them.
-- **User Profiles:** Customize your profile with a profile picture, bio, and more.
-- **Search:** Search for users.
+## 🛠️ Tech Stack
 
-## Usage
+- **Language:** Java
+- **Architecture:** Desktop Application
+- **UI Framework:** Swing (implied from structure)
 
-1. Create an account or log in using your credentials.
-2. Upload a photo by clicking on the "Upload Photo” button on Discover Page.
-3. Like and comment on posts that interest you.
-4. Customize your profile by adding a profile picture and bio.
+## 📋 Requirements
 
-## Contact
+- Java Runtime Environment (JRE) 8 or higher
+- Java Development Kit (JDK) for building from source
 
-For any questions or feedback, reach out to us at [cagribilginer60@gmail.com]
+## ⚙️ Installation
 
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/cago8/PhotoCloud.git
+   cd PhotoCloud
+   ```
 
+2. **Navigate to the project directory:**
+   ```bash
+   cd PhotoCloud
+   ```
 
+3. **Compile the project:**
+   ```bash
+   javac -d bin src/**/*.java
+   ```
 
+4. **Run the application:**
+   ```bash
+   java -cp bin Pages.Main
+   ```
+   Or simply run `src/Pages/Main.java` from your IDE
+
+## 🚀 Getting Started
+
+1. **Create an Account**
+   - Launch the application
+   - Click on "Sign Up"
+   - Enter your credentials and complete registration
+
+2. **Set Up Your Profile**
+   - Upload a profile picture
+   - Add a bio to describe yourself
+   - Customize your profile details
+
+3. **Start Sharing**
+   - Navigate to the Discover Page
+   - Click "Upload Photo" to share your first photo
+   - Add captions or descriptions
+
+4. **Engage with Others**
+   - Like posts that interest you
+   - Leave comments on photos
+   - Search for and follow other users
+
+5. **Manage Your Content**
+   - View your photos in your profile
+   - Edit or delete your posts
+   - Track likes and comments on your content
+
+## 📁 Project Structure
+
+```
+PhotoCloud/
+├── src/
+│   └── Pages/
+│       └── Main.java          # Application entry point
+├── bin/                        # Compiled class files
+├── defaultPicture.png         # Default profile picture
+├── user.txt                   # User data storage
+├── application_log.txt        # Application logs
+└── README.md
+```
+
+## 💻 System Architecture
+
+The application follows a layered architecture with:
+- **Presentation Layer:** User interface components
+- **Business Logic Layer:** Core application functionality
+- **Data Layer:** User and post management
+
+## 🔐 Security Features
+
+- Encrypted password storage
+- User authentication before accessing features
+- Session management to protect user accounts
+
+## 📝 Usage Examples
+
+### Creating an Account
+```
+1. Launch the application
+2. Click "Sign Up"
+3. Enter username and password
+4. Verify email (if required)
+5. Start exploring!
+```
+
+### Uploading a Photo
+```
+1. Click "Upload Photo" on Discover Page
+2. Select an image from your device
+3. Add optional caption
+4. Click "Share"
+```
+
+### Interacting with Content
+```
+1. Browse posts on feed
+2. Click heart icon to like
+3. Click comment icon to leave feedback
+4. View other users' profiles
+```
+
+## 🐛 Known Issues
+
+- Application logs may accumulate over time
+- Default picture appears for users without profile images
+
+## 🤝 Contributing
+
+We welcome contributions! To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📧 Contact & Support
+
+For questions, feedback, or bug reports, please reach out to:
+- **Email:** [cagribilginer60@gmail.com](mailto:cagribilginer60@gmail.com)
+- **GitHub:** [cago8](https://github.com/cago8)
+
+## 📜 License
+
+This project is open source and available under the MIT License.
+
+## 🎓 Learning Outcomes
+
+PhotoCloud serves as an excellent learning resource for:
+- Object-Oriented Programming (OOP) concepts
+- GUI development with Java Swing
+- Database design and management
+- User authentication and session handling
+- Software architecture patterns
+
+---
+
+**Made with ❤️ by Çağrı BİLGİNER**
+
+*Happy sharing! 📸*
